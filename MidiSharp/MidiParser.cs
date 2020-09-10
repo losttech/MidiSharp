@@ -386,7 +386,7 @@ namespace MidiSharp
         }
 
         /// <summary>Exception thrown when an error is encountered during the parsing of a MIDI file.</summary>
-        internal sealed class MidiParserException : Exception
+        public sealed class MidiParserException : Exception
         {
             /// <summary>Position in the data stream that caused the exception.</summary>
             private readonly long m_position;
